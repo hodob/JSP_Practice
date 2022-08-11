@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\develop\Desktop\서버프로그램 JSP\서버프로그램구현_소스1\source\WebMarket_07장\WebMarket_파일업로드"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램 JSP\서버프로그램구현_소스1\source\WebMarket_04장\WebMarket"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램 JSP\서버프로그램구현_소스1\source\WebMarket_03장\WebMarket"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_18장\WebMarket"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_02장\WebMarket_부트스트랩 적용후"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_02장\WebMarket_부트스트랩 적용전"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\JSPBook"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_02장"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_01장"/>
+			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="C:\Users\develop\Desktop\JPA\JSP_WebMarket_JJH\WebContent\ch03_ex\myError.jsp"/>
+			<item value="C:\Users\develop\Desktop\1234156.zip"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="668"/>
+			<item key="DIALOG_Y_ORIGIN" value="195"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		</section>
+	</section>
+</section>

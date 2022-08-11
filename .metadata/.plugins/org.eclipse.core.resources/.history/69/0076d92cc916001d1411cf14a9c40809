@@ -1,0 +1,27 @@
+<%@page import="java.io.PrintWriter"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%-- <%@ page isErrorPage="true" %> --%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%! int count=0; 
+void addCount(){
+	count++;
+}
+%>
+<% addCount(); %>
+<h1>오류페이지 테스트</h1>
+
+<h2>방문자 수 : <%=count %> 번째 방문자.</h2>
+
+
+
+
+
+</body>
+</html>
