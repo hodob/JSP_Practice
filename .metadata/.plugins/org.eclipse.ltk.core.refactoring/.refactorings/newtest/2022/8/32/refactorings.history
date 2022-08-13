@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;newtest&apos;&#x0D;&#x0A;- Original project: &apos;newtest&apos;&#x0D;&#x0A;- Original element: &apos;hello.jsp&apos;" description="Delete element" element1="hello.jsp" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1659590945096" subPackages="false" version="1.0"/>&#x0A;<refactoring comment="Move &apos;images&apos; to &apos;WebContent&apos;" description="Move &apos;images&apos; to &apos;WebContent&apos;" destination="WebContent" element1="images" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1659591408474" updateReferences="true"/>
-</session>

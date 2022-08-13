@@ -38,7 +38,7 @@ public class ProductRepository {
 		tablet.setCondition("Old");
 		tablet.setFilename("P1236.png");
 
-		Product test1 = new Product("P0001", "Galaxy Tab S2", 9000030);
+		Product test1 = new Product("P0001", "aa", 12);
 		test1.setDescription("212.8*125.6*6.6mm,  Super AMOLED display, Octa-Core processor");
 		test1.setCategory("Tablet");
 		test1.setManufacturer("Samsung");
@@ -46,10 +46,31 @@ public class ProductRepository {
 		test1.setCondition("Old");
 		test1.setFilename("test.png");
 		
+		Product test2 = new Product("P0002", "vcxz", 12);
+		test2.setDescription("212.8*125.6*6.6mm,  Super AMOLED display, Octa-Core processor");
+		test2.setCategory("Tablet");
+		test2.setManufacturer("Samsung");
+		test2.setUnitsInStock(1000);
+		test2.setCondition("Old");
+		test2.setFilename("test.png");
+		
+		Product P123445 = new Product("P123445", "LG PC gram", 1500000);
+		P123445.setDescription("13.3-inch, IPS LED display, 5rd Generation Intel Core processors");
+		P123445.setCategory("Notebook");
+		P123445.setManufacturer("LG");
+		P123445.setUnitsInStock(1000);
+		P123445.setCondition("Refurbished");
+		P123445.setFilename("sample1.png");
+		
+		
+				
 		listOfProducts.add(test1);
+		listOfProducts.add(test2);
 		listOfProducts.add(phone);
 		listOfProducts.add(notebook);
 		listOfProducts.add(tablet);
+		listOfProducts.add(P123445);
+		
 	}
 
 	public ArrayList<Product> getAllProducts() {
@@ -61,7 +82,7 @@ public class ProductRepository {
 
 		for (int i = 0; i < listOfProducts.size(); i++) {
 			Product product = listOfProducts.get(i);
-			if (product != null && product.getProductId() != null && product.getProductId().equals(productId)) {
+			if (product != null && product.getProductId() != null && product.getProductId().equals("P0008")) {
 				productById = product;
 				break;
 			}

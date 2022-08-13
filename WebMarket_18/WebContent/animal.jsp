@@ -6,11 +6,13 @@
 <%@ page errorPage="exceptionNoProductId.jsp"%>
 
 
+
 <html>
 <head>
 <link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
 <title>동물 상세 정보</title>
 <script type="text/javascript">
+
 	function addToCart() {
 		if (confirm("상품을 장바구니에 추가하시겠습니까?")) {
 			document.addForm.submit();
@@ -55,9 +57,9 @@
 				<p><b>분류</b> : <%=rs.getString("p_category")%>
 				<p><b>재고 수</b> : <%=rs.getString("p_unitsInStock")%>
 				<h4><%=rs.getString("p_unitPrice")%>원</h4>
-				<p><form name="addForm" action="./addCart.jsp?id=<%=rs.getString("p_id")%>" method="post">
+				<p><form name="addForm" action="./addCart_animal.jsp?id=<%=rs.getString("p_id")%>" method="post">
 					<a href="#" class="btn btn-info" onclick="addToCart()"> 상품 주문 &raquo;</a>
-					<a href="./cart.jsp" class="btn btn-warning"> 장바구니 &raquo;</a> 
+					<a href="./cart_animal.jsp" class="btn btn-warning"> 장바구니 &raquo;</a> 
 					<a href="./products_animal.jsp" class="btn btn-secondary"> 상품 목록 &raquo;</a>
 				</form>
 			</div>

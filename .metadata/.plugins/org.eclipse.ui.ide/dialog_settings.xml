@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.wst.web.ui"/>
-		</list>
-	</section>
 	<section name="ExternalProjectImportWizard">
-		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Users\develop\Desktop\서버프로그램 JSP\서버프로그램구현_소스1\source\WebMarket_07장\WebMarket_파일업로드"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램 JSP\서버프로그램구현_소스1\source\WebMarket_04장\WebMarket"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램 JSP\서버프로그램구현_소스1\source\WebMarket_03장\WebMarket"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_18장\WebMarket"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_02장\WebMarket_부트스트랩 적용후"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_02장\WebMarket_부트스트랩 적용전"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\JSPBook"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_02장"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source\WebMarket_01장"/>
-			<item value="C:\Users\develop\Desktop\서버프로그램구현_소스1\source"/>
+			<item value="C:\Users\develop\Desktop\JPA2\JSPBooks_JJH"/>
+			<item value="C:\Users\develop\Desktop\JPA2\JSP_WebMarket_JJH"/>
+			<item value="C:\Users\develop\Desktop\JPA2\JSP_Practice"/>
+			<item value=""/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
-			<item value="C:\Users\develop\Desktop\JPA\JSP_WebMarket_JJH\WebContent\ch03_ex\myError.jsp"/>
-			<item value="C:\Users\develop\Desktop\1234156.zip"/>
+			<item value="C:\Users\develop\Desktop\지정호_ch06_joinForm 연습해보기_회원가입_버전_백업_0812.zip"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">

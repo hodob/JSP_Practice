@@ -6,7 +6,7 @@
 <nav class="navbar navbar-expand  navbar-dark bg-dark">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="./welcome.jsp">Home</a>
+			<a class="navbar-brand" href="/WebMarket_18/welcome.jsp">Home</a>
 		</div>
 		<div>
 			<ul class="navbar-nav mr-auto">
@@ -21,12 +21,15 @@
 						<li class="nav-item"><a class="nav-link" href="<c:url value="/member/updateMember.jsp"/>">회원 수정</a></li>
 					</c:otherwise>
 				</c:choose>
+				<li class="nav-item"><a class="nav-link" href="<c:url value="/404에러페이지유발.jsp"/>">404에러페이지유발</a></li>
 				<li class="nav-item"><a class="nav-link" href="<c:url value="/products.jsp"/>">상품 목록</a></li>
 				<li class="nav-item"><a class="nav-link" href="<c:url value="/products_animal.jsp"/>">동물 목록</a></li>
 				<li class="nav-item"><a class="nav-link" href="<c:url value="/addProduct.jsp"/>">상품 등록</a></li>
 				<li class="nav-item"><a class="nav-link" href="<c:url value="/addProduct_animal.jsp"/>">동물 등록</a></li>
 				<li class="nav-item"><a class="nav-link" href="<c:url value="/editProduct.jsp?edit=update"/>">상품 수정</a></li>
+				<li class="nav-item"><a class="nav-link" href="<c:url value="/editProduct_animal.jsp?edit=update"/>">동물 수정</a></li>
 				<li class="nav-item"><a class="nav-link" href="<c:url value="/editProduct.jsp?edit=delete"/>">상품 삭제</a></li>
+				<li class="nav-item"><a class="nav-link" href="<c:url value="/editProduct_animal.jsp?edit=delete"/>">동물 삭제</a></li>
 				<li class="nav-item"><a class="nav-link" href="<c:url value="/BoardListAction.do?pageNum=1"/>">게시판</a></li>
 			</ul>
 		</div>
